@@ -1,0 +1,33 @@
+
+
+Roles In Given Use-case:
+
+Admin
+Supervisor
+SalesPerson
+
+Admin:
+
+	Username:- admin@gmail.com
+	Password:- 123456
+
+Admin can only add supervisors.
+
+Supervisor:
+	Username:- sup1@gmail.com
+	Password:- 123456
+
+Supervisors can check for sales staff performance in a particular month and year( default to current month and year ).
+
+Sales Person:
+	Username:- seller1@gmail.com
+	Password:- 123456
+
+Sales person can login to system and can enter in-time, out-time and grams of gold he sold on particular date.
+
+Note:- 
+
+Considering flexibility of application for sales staff a date field is provided while entering in-time, out-time and gold sold on that day. If Sales staff has to enter his timings only on that particular date then there is no need of providing date field.
+This application includes Sales staff performance ecaluation only. Particular Shop performance evaluation not included ( If time permits it will be done as similar to sales staff ).
+For Supervisour in  Sales staff performance ecaluation in particular year of particular month only the staff who came to shop in that month will be listed, other sales staff will not be shown in the list.
+For ADMIN only adding of supervisour given( View, Edit and Delete can also be done later ).
